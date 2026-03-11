@@ -2,7 +2,6 @@
   "name": "@hexlet/code.",
   "version": "1.0.0",
   "type": "module",
-  
   "description": "college project",
   "homepage": "https://github.com/TwoySosed/frontend-project-44#readme",
   "bugs": {
@@ -14,12 +13,14 @@
   },
   "license": "ISC",
   "author": "sosed",
-  "type": "commonjs",
   "main": "index.js",
-"bin": {
-  "brain-games": "bin/brain-games.js"
-},
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "test"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
